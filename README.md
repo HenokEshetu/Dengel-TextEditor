@@ -18,9 +18,9 @@ Dengel Text Editor is designed to interact with text files simply like notepad u
 
 ### CMake
 
-<p>To build this project using cmake, first you need to create a directory called `build` on the parent directory and by get into that path you can generate `cmake` build files.</p>
+To build this project using cmake, first you need to create a directory called `build` on the parent directory and by get into that path you can generate `cmake` build files.
 
-<p>CMake it mostly preferable for unix systems as it is fully supported by it very much for decades.</p>
+CMake it mostly preferable for unix systems as it is fully supported by it very much for decades.
 
 ```sh
 mkdir build
