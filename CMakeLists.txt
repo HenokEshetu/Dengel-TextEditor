@@ -7,5 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_CXX_COMPILER clang++)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-add_subdirectory(lib)
+add_subdirectory(vendor/SDL)
+
+add_subdirectory(lib/core)
+add_subdirectory(lib/ui)
 add_subdirectory(src)

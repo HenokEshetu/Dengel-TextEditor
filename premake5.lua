@@ -4,8 +4,8 @@ workspace "dengel_text_editor"
     cppdialect "C++23"
     systemversion "latest"
 
-    targetdir "bin/%{cfg.buildcfg}"
-    objdir "bin-int/%{cfg.buildcfg}"
+    targetdir "bin/%{prj.name}"
+    objdir "bin-int/%{prj.name}"
 
     filter { "system:linux or macosx" }
         toolset "clang"

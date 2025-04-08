@@ -1,7 +1,8 @@
-#include <hello.h>
+#include "window.h"
 
-int main() {
-    std::string_view message = "Hello, World!";
-    hello(message);
-    return 0;
+int main()
+{
+    auto winInfo = dengel_ui::WindowInfo{ "Hello there", 800, 600 };
+    auto window = dengel_ui::Window{ winInfo };
+    window.Show();
 }
