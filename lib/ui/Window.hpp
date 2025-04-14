@@ -1,12 +1,15 @@
 #pragma once
+
 #include <SDL3/SDL.h>
 #include <memory>
 #include <string>
 #include <mutex>
 
-namespace dengel_ui {
+namespace dengel_ui
+{
 
-struct WindowInfo {
+struct WindowInfo
+{
     std::string Title;
     int Width;
     int Height;
@@ -21,7 +24,8 @@ struct WindowInfo {
     WindowInfo& operator=(const WindowInfo&) = delete;
 };
 
-class Window {
+class Window
+{
 public:
     explicit Window(const WindowInfo& winInfo);
     ~Window();
